@@ -23,7 +23,7 @@ section {
 }
 
 #myinfo {
-    background-image: url("/assets/imgs/my.jpg");
+    background-image: url("assets/imgs/my.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -99,7 +99,7 @@ a {
 }
 
 #roadmap-education {
-    background-image: url("/assets/imgs/kku-cs.jpg");
+    background-image: url("assets/imgs/kku-cs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
