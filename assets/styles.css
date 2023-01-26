@@ -1,0 +1,197 @@
+@media (min-width: 992px) {
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+
+body, html{
+    font-family: 'Kanit', sans-serif;
+    color: #272829;
+    height: 100%;
+    margin: 0;
+
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+}
+
+section {
+    padding: 60px;
+    overflow: hidden;
+}
+
+#myinfo {
+    background-image: url("/assets/imgs/my.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.row{
+    padding: 30px;
+}
+
+.resume-item {
+    margin-top: 20px;
+}
+
+.resume-item h5 {
+    margin-top: 20px;
+
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #1b3c5e;
+}
+
+.container p{
+    font-size: 25px;
+    color: #272829;
+    margin-top: 20px;
+}
+
+.social-links {
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+h1 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+a {
+    color: #1b3c5e;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.roadmap-education .row h3 {
+    color: #aad1f5;
+}
+
+.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover>a { 
+    color: #fff;
+    background: #0563bb;
+    transition: 0.3s;
+    position: sticky;
+}
+
+#about {
+    background-color: rgb(234,232,244);
+}
+
+#roadmap-education {
+    background-image: url("/assets/imgs/kku-cs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+
+.nav-menu a, .nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 50px;
+    height: 55px;
+    width: 100px;
+    transition: 0.3s;
+    color: #45505b;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+    background-color: rgb(242, 243, 245);
+}
+
+.nav-menu * {
+    margin: 0;
+    list-style: none;
+}
+
+
+.justify-content-center {
+    justify-content: center!important;
+}
+
+.flex-column {
+    flex-direction: column!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.slider{
+    width:75%;
+    height:500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex!important;
+    justify-content: center!important;
+    margin: auto;
+}
+#img{
+    width:70%;
+    height:100%;
+    object-fit: contain;
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+
+#certificate {
+    background-color: rgb(234,232,244);
+    text-align: center;
+}
+
+#footer {
+    background-color: rgb(81,134,208);
+    text-align: center;
+    color: #33404d;
+    padding-top: 30px;
+}
+
+#footer div.container h3 {
+    font-weight: bolder;
+}
+
+#footer div.container p {
+    color: #33404d;
+}
+
+#footer div.container div.social-links i{
+    color: #33404d;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    padding: 6px;
+}
+
+}
+
+
+
+
+
+
+
+
