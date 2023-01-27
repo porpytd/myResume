@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media screen and (min-device-width: 768px){
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
 
 body, html{
@@ -104,7 +104,7 @@ a {
     background-size: cover;
     color: #fff;
     height: 100%;
-    background-position: 50% 50%;
+    background-position: 50% 90%;
 }
 
 .nav-menu a, .nav-menu a:focus {
