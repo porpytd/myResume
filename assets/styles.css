@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 768px){
+@media screen  and (min-width: 390px) {
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
 
 body, html{
@@ -26,7 +26,8 @@ section {
     background-image: url("imgs/my.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-position: 50% 70%;
+    height: 70%;
 }
 
 .row{
